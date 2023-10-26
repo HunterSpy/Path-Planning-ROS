@@ -12,7 +12,7 @@ import rospy
 from pp_msgs.srv import PathPlanningPlugin, PathPlanningPluginResponse
 from geometry_msgs.msg import Twist
 from gridviz import GridViz
-from algorithms import dijkstra
+from algorithms import dijkstra, a_star
 
 
 def make_plan(req):
@@ -39,7 +39,7 @@ def make_plan(req):
     start_time = rospy.Time.now()
 
     # calculate the shortes path using Dijkstra
-    path = dijkstra(start_index, goal_index, width, height, costmap, resolution, origin, viz)
+    path = a_star(start_index, goal_index, width, height, costmap, resolution, origin, viz)
 
     if not path:
         rospy.logwarn("No path returned by algorithm")
