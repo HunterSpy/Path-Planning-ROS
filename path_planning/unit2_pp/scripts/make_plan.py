@@ -1,13 +1,5 @@
 #!/usr/bin/env python
 
-"""
-ROS service server node for Dijkstra's algorithm path planning exercise solution
-Author: Roberto Zegers R.
-Copyright: Copyright (c) 2021, Roberto Zegers R.
-License: BSD-3-Clause
-Date: March 2021
-"""
-
 import rospy
 from pp_msgs.srv import PathPlanningPlugin, PathPlanningPluginResponse
 from geometry_msgs.msg import Twist
