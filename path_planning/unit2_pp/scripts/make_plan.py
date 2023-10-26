@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-
 import rospy
 from pp_msgs.srv import PathPlanningPlugin, PathPlanningPluginResponse
 from geometry_msgs.msg import Twist
