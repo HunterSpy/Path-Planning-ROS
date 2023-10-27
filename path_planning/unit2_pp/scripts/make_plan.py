@@ -5,7 +5,6 @@ from geometry_msgs.msg import Twist
 from gridviz import GridViz
 from algorithms import dijkstra, a_star, greedy
 
-
 def make_plan(req):
     '''
   Callback function used by the service server to process
