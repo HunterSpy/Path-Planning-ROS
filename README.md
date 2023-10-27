@@ -14,5 +14,8 @@ A* is an extension of Dijkstra's algorithm that is used for finding the shortest
 
 ## Usage 
 ### Launch
+1. Run the simulation, which will spawn the robot in the gazebo
+    roslaunch unit2_pp simulation_unit2.launch
 
-    roslaunch unit2_pp test_attacher.launch
+2. Below launch file will open the RViz, then select the 2D Navigation Path
+    roslaunch unit2_pp simulation_unit2.launch
