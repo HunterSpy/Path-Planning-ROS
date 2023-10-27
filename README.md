@@ -13,4 +13,6 @@ Dijkstra's algorithm is a widely used algorithm for finding the shortest path be
 A* is an extension of Dijkstra's algorithm that is used for finding the shortest path in a graph with both edge weights and a heuristic function. It combines the advantages of Dijkstra's algorithm and Best-First Search by using a heuristic to prioritize the search. A* is widely used in robotics, video games, and many other applications.
 
 ## Usage 
+### Launch
 
+    roslaunch unit2_pp test_attacher.launch
