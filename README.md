@@ -1,4 +1,4 @@
-# Path Planning Algorithms: Dijkstra and A*
+# Path Planning Algorithms: 
 
 ## Overview
 This repository contains Python code for path planning using two popular algorithms, Dijkstra and A*. Path planning is a fundamental problem in robotics and artificial intelligence, and these algorithms are widely used for finding the optimal path between two points in a graph or grid.
